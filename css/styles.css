@@ -1,0 +1,81 @@
+body {
+    background-color: #1C2126;
+}
+
+.inline-block {
+    display: inline-block ;
+    vertical-align: top;
+}
+
+
+.logo {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+}
+
+header ul {
+    float: right;
+}
+
+li a {
+    padding: 10px;
+    color: #9BB1BF;
+}
+
+.heroImg {
+    display: inline-block;
+    height: 600px;
+    padding-bottom: 200px;
+    position: relative;
+    align-items: center;
+}
+
+.contentBlock {
+    display: inline-block;
+    color: white;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    position: center;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: row;
+}
+
+.workGrid {
+    display: grid;
+}
+
+footer {
+    background-color: #373738;
+    padding: 5%;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li {
+    padding: 10px;
+}
