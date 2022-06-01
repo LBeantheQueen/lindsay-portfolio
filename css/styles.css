@@ -38,7 +38,7 @@ li a {
     height: 600px;
     padding-bottom: 200px;
     position: relative;
-    align-items: center;
+    text-align: center;
 }
 
 .contentBlock {
@@ -53,17 +53,30 @@ li a {
 
 h1 {
     position: center;
-    align-items: center;
+    text-align: center;
+}
+
+.mySkills {
+    background-color: white;
+    padding: 10px;
 }
 
 .flexContainer {
     display: flex;
-    flex: 33% 33% 33%;
+    flex: 33%;
     flex-direction: row;
 }
 
 .workGrid {
     display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.workGrid .item-2 {
+    background-color: #324E59;
+    text-align: center;
+    color: white;
 }
 
 footer {
